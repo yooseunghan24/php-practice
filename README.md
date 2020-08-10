@@ -19,6 +19,7 @@ http://127.0.0.1/parameter.php?name=hello&address=서울
 안녕하세요 <?php echo $_GET['address'];?>에 사시는 <?php echo $_GET['name'];?>님
 ```
 ## 함수
-- strlen() 글자 수 세기
-- nl2br() 내가 입력한 대로 출력됨(줄바꿈 됨)
-- file_get_contents() 파일 읽는 함수
+- strlen() 글자 수 세기.
+- nl2br() 내가 입력한 대로 출력됨(줄바꿈 됨).
+- file_get_contents() 파일 읽는 함수.
+- var_dump() 괄호 안의 데이터를 출력하고 그 데이터의 타입도 알려줌.
