@@ -21,3 +21,4 @@ http://127.0.0.1/parameter.php?name=hello&address=서울
 ## 함수
 - strlen() 글자 수 세기
 - nl2br() 내가 입력한 대로 출력됨(줄바꿈 됨)
+- file_get_contents() 파일 읽는 함수
