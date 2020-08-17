@@ -25,6 +25,7 @@ http://127.0.0.1/parameter.php?name=hello&address=서울
 - var_dump() 괄호 안의 데이터를 출력하고 그 데이터의 타입도 알려줌.
 - isset() 괄호 안의 데이터의 참,거짓 판별.
 - scandir('./directory') directory의 하위 문서들을 스캔해서 배열로 가져옴.
+- 함수 작성방법
 ```
 function sum($left, $right) {
     print($left+$right);
@@ -32,4 +33,4 @@ function sum($left, $right) {
   }
   sum(2,4); // 6
 ```
-인자에 $를 붙여줘야 함. 그냥 left, right만 쓰면 에러남.
+인자에 $를 붙여서 변수로 만들어줘야 함. 그냥 left, right만 쓰면 에러남.
