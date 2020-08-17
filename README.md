@@ -27,10 +27,11 @@ http://127.0.0.1/parameter.php?name=hello&address=서울
 - scandir('./directory') directory의 하위 문서들을 스캔해서 배열로 가져옴.
 - 함수 작성방법
 ```
-function sum($left, $right) {
+function sum($left, $right) { // $left, $right는 parameter(매개변수)라고 불림
     print($left+$right);
     print("<br>");
   }
-  sum(2,4); // 6
+  sum(2,4); // 결과: 6
+  // sum 안의 2와 4는 arguments(인자) 라고 불림
 ```
-인자에 $를 붙여서 변수로 만들어줘야 함. 그냥 left, right만 쓰면 에러남.
+매개변수에 $를 붙여서 변수로 만들어줘야 함. 그냥 left, right만 쓰면 에러남.
