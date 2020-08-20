@@ -25,6 +25,7 @@ http://127.0.0.1/parameter.php?name=hello&address=서울
 - var_dump() 괄호 안의 데이터를 출력하고 그 데이터의 타입도 알려줌.
 - isset() 괄호 안의 데이터의 참,거짓 판별.
 - scandir('./directory') directory의 하위 문서들을 스캔해서 배열로 가져옴.
+- **require보다는 require_once 쓰는 것이 정신건강에 이롭다.** 왜냐? php는 같은 함수 재선언을 못하기 때문에
 - 함수 작성방법
 ```
 function sum($left, $right) { // $left, $right는 parameter(매개변수)라고 불림
