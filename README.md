@@ -37,3 +37,5 @@ function sum($left, $right) { // $left, $right는 parameter(매개변수)라고 
 ```
 매개변수에 $를 붙여서 변수로 만들어줘야 함. 그냥 left, right만 쓰면 에러남.
 - echo htmlspecialchars(); XSS 방지(괄호 안에 방지할 것 써야함)
+- basename(); 파일 경로는 안보이게 하고 파일명만 보이게 할 수 있음.
+## php는 API를 잘 활용해야 한다.
