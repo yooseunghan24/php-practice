@@ -36,3 +36,4 @@ function sum($left, $right) { // $left, $right는 parameter(매개변수)라고 
   // sum 안의 2와 4는 arguments(인자) 라고 불림
 ```
 매개변수에 $를 붙여서 변수로 만들어줘야 함. 그냥 left, right만 쓰면 에러남.
+- echo htmlspecialchars(); XSS 방지(괄호 안에 방지할 것 써야함)
