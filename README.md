@@ -28,12 +28,12 @@ http://127.0.0.1/parameter.php?name=hello&address=서울
 - **require보다는 require_once 쓰는 것이 정신건강에 이롭다.** 왜냐? php는 같은 함수 재선언을 못하기 때문에
 - 함수 작성방법
 ```
-function sum($left, $right) { // $left, $right는 parameter(매개변수)라고 불림
+function sum($left, $right) { // $left, $right는 parameter(매개변수)
     print($left+$right);
     print("<br>");
   }
   sum(2,4); // 결과: 6
-  // sum 안의 2와 4는 arguments(인자) 라고 불림
+  // sum 안의 2와 4는 arguments(인자)
 ```
 매개변수에 $를 붙여서 변수로 만들어줘야 함. 그냥 left, right만 쓰면 에러남.
 - echo htmlspecialchars(); XSS 방지(괄호 안에 방지할 것 써야함)
